@@ -7,6 +7,8 @@
 			'after_widget' => '</div>',
 			'before_title' => '<h3>',
 			'after_title' => '</h3>',
+			'id' => 'sidebar-1',
+			'description'   => __( 'Add widgets here to appear in your sidebar.', 'twentyfifteen' ),
 		)
 	);
 ?>
