@@ -12,7 +12,7 @@
 				<div class="post-header">
 					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					<div class="post-meta">
-						<?php echo get_the_date(); ?> 【<?php the_category(', '); ?>】
+						<?php echo get_the_date(); ?><?php the_category(', '); ?>
 					</div>
 					<div class="post-content">
 						<div class="post-image">
