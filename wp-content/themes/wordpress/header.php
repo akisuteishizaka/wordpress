@@ -9,6 +9,9 @@
 <body>
 	<div id="header" class="container">
 		<h1><a href="<?php echo home_uri('/'); ?>"><?php bloginfo('name'); ?></a></h1>
-		<?php wp_nav_menu(); ?>
+				<ul class="menu">
+					<li><a href="">menu</a></li>
+					<li><a href="">menu</a></li>
+					<li><a href="">menu</a></li>
+				</ul>
 	</div>
-<?php wp_head(); ?>
