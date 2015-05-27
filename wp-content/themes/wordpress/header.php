@@ -8,10 +8,7 @@
 </head>
 <body>
 	<div id="header" class="container">
-		<h1><a href="<?php echo home_uri('/'); ?>"><?php bloginfo('name'); ?></a></h1>
-				<ul class="menu">
-					<li><a href="">menu</a></li>
-					<li><a href="">menu</a></li>
-					<li><a href="">menu</a></li>
-				</ul>
+		<h1><a href="<?php echo home_uri(''); ?>"><?php bloginfo('name'); ?></a></h1>
+            <?php wp_nav_menu(); ?>
 	</div>
+<?php wp_head(); ?>
