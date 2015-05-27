@@ -16,7 +16,11 @@
 					</div>
 					<div class="post-content">
 						<div class="post-image">
-							<img src="images.jpg" height="168" width="300">
+
+							<?php if (has_post_thumbnail()) : ?>
+							<?php the_post_thumbnail(); ?>
+							<?php endif; ?>
+
 						</div>
 						<div class="post-body">
 							<?php the_excerpt(); ?>

@@ -11,4 +11,6 @@
 			'description'   => __( 'Add widgets here to appear in your sidebar.', 'twentyfifteen' ),
 		)
 	);
+
+	add_theme_support('post-thumbnails');
 ?>
