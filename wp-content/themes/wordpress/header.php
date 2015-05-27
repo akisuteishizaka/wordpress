@@ -11,3 +11,4 @@
 		<h1><a href="<?php echo home_uri('/'); ?>"><?php bloginfo('name'); ?></a></h1>
 		<?php wp_nav_menu(); ?>
 	</div>
+<?php wp_head(); ?>
