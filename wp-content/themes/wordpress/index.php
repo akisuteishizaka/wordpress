@@ -41,8 +41,8 @@
 			?>
 
 			<div class="navigation">
-				<div class="prev">perv</div>
-				<div class="next">next</div>
+				<div class="prev"><?php previous_posts_link(); ?></div>
+				<div class="next"><?php next_posts_link(); ?></div>
 			</div>
 		</div>
 	<?php get_sidebar(); ?>
