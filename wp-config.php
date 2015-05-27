@@ -74,6 +74,9 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', true);
 
+/*エラーメッセージを表示させる場合*/
+ini_set('display_errors', 'On');
+
 /* 編集が必要なのはここまでです ! WordPress でブログをお楽しみください。 */
 
 /** Absolute path to the WordPress directory. */
